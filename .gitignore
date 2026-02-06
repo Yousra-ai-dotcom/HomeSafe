@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environnement virtuel
+venv/
+
+# Données (datasets)
+dataset/
+fall_detection/
+# Modèles entraînés
+models/*.pkl
+models/*.h5
+models/labels_encoder.pkl
+# Embeddings
+embeddings/
+
+# Logs
+alerts/events_log.csv
+
+# MacOS
+.DS_Store
